@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Yt Playback Control</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <img src="/images/icon.png" alt="youtube-icon" height="30" />
+      <p class="header-text">YT Playback Speed</p>
+    </div>
+    <div class="controls-container">
+      <button id="1x" class="btn">1x</button>
+      <button id="1.5x" class="btn">1.5x</button>
+      <button id="2x" class="btn">2x</button>
+      <button id="2.5x" class="btn">2.5x</button>
+      <button id="3x" class="btn">3x</button>
+      <button id="3.5x" class="btn">3.5x</button>
+      <button id="4x" class="btn">4x</button>
+    </div>
+    <p class="custom-speed-text">Custom Speed</p>
+    <div class="slider-container">
+      <input
+        id="playback_speed_range"
+        type="range"
+        min="0.1"
+        max="10"
+        value="1"
+        step="0.1"
+      />
+      <input id="playback_speed_input" type="number" value="1.0" />
+    </div>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
